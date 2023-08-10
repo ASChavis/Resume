@@ -44,13 +44,43 @@ footer {
     padding: 10px;
 }
 
+button {
+    display: flex;
+    background-color: #07201d;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
 a {
     display: flex;
     background-color: #07201d;
-    padding: 10px;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    padding: 15px;
     border-radius: 15px;
-    
+
+}
+
+a:link {
+    text-decoration: none;
+    color:#b9bbba
+}
+
+a:visited {
+    color:#44534d
+}
+
+a:hover{
+    color: #d0f3e1;
+    background-color: #44534d;
+}
+
+.scvsec {
+    display:flex;
+    flex-direction: column;
+    width:500px;
+    justify-content: center;
+    align-content: center;
+   
 }
