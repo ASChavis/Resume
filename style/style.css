@@ -1,29 +1,56 @@
 *{
-    background-color:#99BDAD;
-    color:#0a3b25;
+    text-align: center;
+    background-color:#5B7067;
+    color: #c1d6cb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #07201d;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
 }
 
 h1{
-    color:#062917;
+    color:#d0f3e1;
     display: flex;
     justify-content: center;
+    background-color: #07201d;
+    
 }
 
 .contactinfo {
     display:flex;
     justify-content: center;
+    color:#b9bbba;
+    background-color: #07201d;
+    
     
 }
 
 h3{
-    color:#062917;
+    color:#07201d;
     display: flex;
     justify-content: center;
+    border-bottom: 2px solid #6f8a7e;
+    font-size: x-large;
 }
 
-p{
-    display: flex;
-    justify-content: center;
+footer {
+    background-color: #07201d;
+    padding: 10px;
+}
 
-    flex: 1;
+a {
+    display: flex;
+    background-color: #07201d;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    border-radius: 15px;
+    
 }
