@@ -148,7 +148,7 @@ a {
     margin-bottom: 20px;
 }
 
-.scvsec, .blah, .lmc, .fp, .cvets, .github {
+.scvsec, .blah, .lmc, .fp, .cvets, .github, .projects {
     display: flex;
     align-content: center;
     justify-content: center;
